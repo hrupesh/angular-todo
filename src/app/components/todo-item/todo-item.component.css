@@ -1,0 +1,27 @@
+.is-completed{
+    text-decoration: red line-through ;
+    font-size:1.5rem !important;
+    background: rgba(253, 159, 159, 0.589) !important;
+}
+
+.todo{
+    background: rgba(248, 188, 188, 0.589);
+    padding:10px;
+    border-bottom: 1px grey dotted;
+    font-size: 1.1rem;
+}
+
+.todo:hover{
+    background: rgb(248, 188, 188);
+    box-shadow: 5px 5px 5px rgb(165, 34, 23);
+}
+
+.del{
+    background: red;
+    color: white;
+    border:none;
+    padding:5px 9px;
+    border-radius: 50%;
+    cursor: wait;
+    float:right;
+}

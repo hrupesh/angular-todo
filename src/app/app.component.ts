@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-todo';
+  name:string = "Rupesh Chaudhari";
+
+  constructor(){
+    this.name = "Rupesh Ashok Chaudhari"
+  }
 }
